@@ -14,7 +14,8 @@
                 <h1>Please enter the name of the movie</h1>
                 <div class="input">
                     <label for="movie_input">Movie Name</label>
-                    <input type="text" id="movie_input" name="movie"><br>
+                    <input type="text" id="movie_input" name="movie" list="movie_list" required>
+                    <datalist id="movie_list"></datalist>
                 </div>
                 <button type="submit">Find movies!</button>
             </form>
@@ -23,5 +24,6 @@
 
     <!-- JavaScript -->
     <script src="{{ url_for('static', filename='background_setter.js') }}"></script>
+    <script src="{{ url_for('static', filename='autocomplete.js') }}"></script>
 </body>
 </html>

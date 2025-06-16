@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
@@ -16,9 +16,18 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
+    color: red;
 }
 
 ul {
@@ -26,25 +35,45 @@ ul {
     padding: 0;
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
 }
 
 li {
-    width: calc(50% - 20px); /* 50% width with margin */
+    width: calc(80% - 20px); /* 2 per row with space */
     margin: 10px;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    display: flex;
 }
 
 li img {
-    max-width: 100%;
+    width: 100px;
     height: auto;
-    display: block;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    flex-shrink: 0;
 }
 
-/* Styles for when movies is not found */
-section h2 {
-    color: #ff0000; /* Red color for error message */
+li div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.desc {
+    text-align: justify;
+    flex-grow: 1;
 }

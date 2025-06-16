@@ -12,10 +12,16 @@
         {% if movies is string %}
             <h2>{{ movies }}</h2>
         {% else %}
-            <h2>Recommended movies</h2>
+            <h1>Recommended movies</h1>
             <ul>
-                {% for movie in movies %}
-                <li>{{ movie }}</li>
+                {% for i in range(5) %}
+                <li>
+                    <div>
+                        <p class="name">{{ movies[0][i] }}</p>
+                        <p class="desc">{{ movies[2][i] }}</p>
+                    </div>
+                    <img src="{{ movies[1][i] }}" alt="{{ movies[0][i] }}"/>
+                </li>
                 {% endfor %}
             </ul>
         {% endif %}
