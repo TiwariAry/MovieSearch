@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result_style.css') }}">
+    <title>MovieSearch</title>
+    <link rel="icon" type="image" href="/../static/image/favicon.png">
+</head>
+<body>
+    <section>
+        {% if movies is string %}
+            <h2>{{ movies }}</h2>
+        {% else %}
+            <h1>Recommended movies</h1>
+            <ul>
+                {% for i in range(5) %}
+                <li>
+                    <div>
+                        <p class="name">{{ movies[0][i] }}</p>
+                        <p class="desc">{{ movies[2][i] }}</p>
+                    </div>
+                    <img src="{{ movies[1][i] }}" alt="{{ movies[0][i] }}"/>
+                </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </section>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='background_setter.js') }}"></script>
+</body>
+</html>
