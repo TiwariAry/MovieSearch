@@ -37,7 +37,8 @@
 ## 🧠 Colab Notebook
 
 Bag of words technique was used to acheive the results.
-📓 [Google Colab Notebook]()
+
+📓 [Google Colab Notebook](https://colab.research.google.com/drive/1CBkRbs2CIiMB-v3VUH4jaEXatjQZYuE5?usp=sharing)
 
 ---
 
