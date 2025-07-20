@@ -154,7 +154,7 @@ python app.py
 
 ## 📄 License
 
-
+[MIT Licence](https://github.com/TiwariAry/MovieSearch/blob/main/LICENSE)
 
 ---
 
