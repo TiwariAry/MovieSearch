@@ -1,10 +1,13 @@
-<img width="1919" height="1002" alt="Screenshot 2025-07-21 002114" src="https://github.com/user-attachments/assets/e6b39854-7e07-4b71-91d4-6a4978be25a0" /># 🎬 MovieSearch
+# 🎬 MovieSearch
 **A Smart Movie Recommendation App Without Machine Learning**
 
 **MovieSearch** is a full-stack web application that recommends the **top 5 movies** similar to the one entered by the user using a simple yet effective **Bag-of-Words technique**. Built **without any machine learning** library, it uses intelligent text similarity matching and leverages **real-time data from TheMovieDB API** for movie metadata.
 
 🌐 **Live App**: [MovieSearch](https://moviesearch-boli.onrender.com)  
 <br/>
+
+<img width="1919" height="1002" alt="Screenshot 2025-07-21 002114" src="https://github.com/user-attachments/assets/d9aa0b75-265d-4bff-9622-80180c2258db" />
+<img width="1911" height="994" alt="Screenshot 2025-07-21 003140" src="https://github.com/user-attachments/assets/b0943761-87e5-4cc9-82f5-0c2e0bac2f90" />
 
 ---
 
