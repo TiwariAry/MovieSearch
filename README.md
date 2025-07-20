@@ -43,7 +43,7 @@ Bag of words technique was used to acheive the results.
 
 ## 🌿 System Overview
 
-
+<img width="1466" height="650" alt="Screenshot 2025-07-21 004127" src="https://github.com/user-attachments/assets/3e736f57-050e-4aca-a54f-3bbec74fe77d" />
 
 ---
 
